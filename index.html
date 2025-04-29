@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistério das Constelações Perdidas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <header>
+            <h1>Mistério das Constelações Perdidas</h1>
+            <p class="subtitle">🛸 Restaure o equilíbrio cósmico reorganizando as estrelas 🪐</p>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <label for="constellation-input">Mapa Estelar:</label>
+                <input type="text" id="constellation-input" placeholder="Digite o mapa estelar (ex: starplanetstar)" autocomplete="off">
+            </div>
+
+            <div class="button-group">
+                <a href="#result" class="btn btn--svg js-animated-button">
+                    <span class="btn--svg__label">Restaurar</span>
+                    <svg width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" class="btn--svg__circle">
+                        <circle fill="#FFFFFF" cx="30" cy="30" r="28.7" class="js-discover-circle"></circle>
+                    </svg>
+                    <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190" class="btn--svg__border">
+                        <g id="Calque_2" class="btn--svg__border--left js-discover-left-border">
+                            <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+                        </g>
+                        <g id="Calque_3" class="btn--svg__border--right js-discover-right-border">
+                            <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+                        </g>
+                    </svg>
+                </a>
+                
+                <a href="#" class="btn btn--svg js-animated-button return-btn">
+                    <span class="btn--svg__label">Retornar</span>
+                    <svg width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" class="btn--svg__circle">
+                        <circle fill="#FFFFFF" cx="30" cy="30" r="28.7" class="js-discover-circle"></circle>
+                    </svg>
+                    <svg x="0px" y="0px" preserveAspectRatio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190" class="btn--svg__border">
+                        <g id="Calque_2" class="btn--svg__border--left js-discover-left-border">
+                            <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+                        </g>
+                        <g id="Calque_3" class="btn--svg__border--right js-discover-right-border">
+                            <path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="result-container">
+                <label for="constellation-result">Constelações Restauradas:</label>
+                <div id="constellation-result" class="result-box"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por luizfx.dev &copy; - 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
